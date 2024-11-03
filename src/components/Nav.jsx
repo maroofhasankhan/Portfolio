@@ -87,7 +87,7 @@ const StyledNav = styled.nav`
     padding-left: 10rem;
     position: relative;
   }
-  @media (max-width: 1500px) {
+  @media (max-width: 1200px) {
     flex-direction: column;
     padding: 2rem 0rem;
     ul {

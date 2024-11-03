@@ -51,10 +51,9 @@ const Cards = styled(motion.div)`
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  /* flex-direction: space-between; */
   min-height: 80vh;
   min-width: 100%;
-  padding: 2rem 10rem;
+  /* padding: 2rem 10rem; */
 `;
 
 export default Skills;

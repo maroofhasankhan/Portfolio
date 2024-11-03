@@ -106,7 +106,7 @@ const Content = styled(motion.div)`
     font-weight: 400;
     text-align: center;
   }
-  @media (max-width: 1300px) {
+  @media (max-width: 1200px) {
     .pcol{
       display: none;
     }

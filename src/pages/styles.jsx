@@ -10,7 +10,7 @@ export const About = styled(motion.div)`
   padding: 1rem 10rem;
   padding-bottom: 5rem;
   color: white;
-  @media (max-width: 1500px) {
+  @media (max-width: 1200px) {
     display: block;
     padding: 2rem 2rem;
     text-align: center;

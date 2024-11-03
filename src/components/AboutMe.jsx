@@ -80,7 +80,7 @@ const Content = styled(About)`
     width: 70%;
     padding: 2rem 0rem 4rem 0rem;
   }
-  @media (max-width: 1500px) {
+  @media (max-width: 1200px) {
     display: block;
     padding: 2rem 2rem;
   }
