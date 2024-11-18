@@ -7,6 +7,7 @@ import { useScroll } from "../components/useScroll";
 const Resume = () => {
 
   const [element, controls] = useScroll();
+  const [element1, controls1] = useScroll();
 
   return (
     <Content
@@ -36,6 +37,25 @@ const Resume = () => {
         <h1>My Journey</h1>
 
         <div className="row">
+          <div className="pcol"></div>
+          <motion.div
+            className="acol"
+            variants={flipAni}
+            initial="hidden"
+            animate={controls}
+            ref={element}
+          >
+            <div className="cont">
+              <h3>
+                SDE Intern<span>10-2024 to Present</span>
+              </h3>
+              <h4>Internship</h4>
+              <h3>SMILe Digital Ai Labs, Pune </h3>
+            </div>
+          </motion.div>
+        </div>
+
+        <div className="row">
           <motion.div
             className="acol"
             variants={flipAni}
@@ -59,8 +79,8 @@ const Resume = () => {
             className="acol"
             variants={flipAni}
             initial="hidden"
-            animate={controls}
-            ref={element}
+            animate={controls1}
+            ref={element1}
           >
             <div className="cont">
               <h3>
@@ -76,8 +96,8 @@ const Resume = () => {
             className="acol"
             variants={flipAni}
             initial="hidden"
-            animate={controls}
-            ref={element}
+            animate={controls1}
+            ref={element1}
           >
             <div className="cont">
               <h3>

@@ -34,8 +34,8 @@ const Card = ({icon,title}) => {
 }
 
 const Cards = styled(motion.div)`
-  min-height: 15rem;
-  min-width: 15rem;
+  min-height: 10rem;
+  min-width: 12rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,7 +48,7 @@ const Cards = styled(motion.div)`
   h2{
     font-size: 2rem;
   }
-  
+
 `;
 const Image = styled(motion.div)`
     border-radius: 50%;

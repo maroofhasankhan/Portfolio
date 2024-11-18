@@ -8,7 +8,7 @@ export const MovieState = () => {
     {
       title: "D3D International",
       mainImg: d3d,
-      url: "/capture-Portfolio/work/d3dinternational",
+      url: "/work/d3dinternational",
       awards: [
         {
           title: "Project Overview",
@@ -30,7 +30,7 @@ export const MovieState = () => {
     {
       title: "Mhk Music Player",
       mainImg: music,
-      url: "/capture-Portfolio/work/mhkmusicplayer",
+      url: "/work/mhkmusicplayer",
       awards: [
         {
           title: "Project Overview",
@@ -52,7 +52,7 @@ export const MovieState = () => {
     {
       title: "Elena Joy",
       mainImg: elena,
-      url: "/capture-Portfolio/work/elenajoy",
+      url: "/work/elenajoy",
       awards: [
         {
           title: "Project Overview",

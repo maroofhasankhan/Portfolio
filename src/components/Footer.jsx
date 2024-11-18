@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import styled from 'styled-components'
 //importing images
-import pic from '../img/maroofmy.png';
 import leetcode  from '../img/leetcode-svgrepo-com.svg'
 import linkedin  from '../img/linkedin-brands-solid.svg'
 import github  from '../img/github-brands-solid.svg'

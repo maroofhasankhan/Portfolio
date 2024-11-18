@@ -24,11 +24,11 @@ function App() {
       <Nav />
       <AnimatePresence mode="wait">
         <Routes location={location.pathname} key={location.pathname}>
-          <Route path="/capture-Portfolio/" element={<AboutUs />} />
-          <Route path="/capture-Portfolio/work/:id" element={<MovieDetail />} />
-          <Route path="/capture-Portfolio/work" element={<OurWork />} />
-          <Route path="/capture-Portfolio/contact" element={<ContactUs />} />
-          <Route path="/capture-Portfolio/resume" element={<Resume />} />
+          <Route path="/" element={<AboutUs />} />
+          <Route path="/work/:id" element={<MovieDetail />} />
+          <Route path="/work" element={<OurWork />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </AnimatePresence>
       <Footer/>

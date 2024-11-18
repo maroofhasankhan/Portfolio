@@ -15,7 +15,7 @@ const AboutSection = () => {
 
   React.useEffect(() => {
     const typed = new Typed(spans.current, {
-      strings: ['Frontend Developer', 'React Developer','Backend Developer', 'MERN Developer'],
+      strings: ['Frontend Developer', 'React Developer','Backend Developer','ML Engineer'],
       typeSpeed: 60,
       loop:true,
       backSpeed:30,
@@ -59,7 +59,7 @@ const AboutSection = () => {
           An aspiring web developer with a passion for creating visually appealing websites and user-friendly web applications.
         </motion.p>
 
-        <Link to="/capture-Portfolio/contact">
+        <Link to="/contact">
           <motion.button variants={fade}>Contact Us</motion.button>
         </Link>
       </Description>
