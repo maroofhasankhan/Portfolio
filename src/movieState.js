@@ -7,7 +7,7 @@ export const MovieState = () => {
   return [
     {
       title: "D3D International",
-      mainImg: d3d,
+      mainImg: "https://res.cloudinary.com/dcgo02utu/video/upload/v1732099009/nqbpttan8lg9mbut1rbq.mp4",
       url: "/work/d3dinternational",
       awards: [
         {
@@ -29,7 +29,7 @@ export const MovieState = () => {
     },
     {
       title: "Mhk Music Player",
-      mainImg: music,
+      mainImg: "https://res.cloudinary.com/dcgo02utu/video/upload/v1732099264/ez0nw4pu0fx9q66uoqqn.mp4",
       url: "/work/mhkmusicplayer",
       awards: [
         {
@@ -51,7 +51,7 @@ export const MovieState = () => {
     },
     {
       title: "Elena Joy",
-      mainImg: elena,
+      mainImg: "https://res.cloudinary.com/dcgo02utu/video/upload/v1732099198/orp9j6vnutqthjuecnqm.mp4",
       url: "/work/elenajoy",
       awards: [
         {
