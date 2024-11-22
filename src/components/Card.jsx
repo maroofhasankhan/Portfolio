@@ -43,11 +43,15 @@ const Cards = styled(motion.div)`
   padding: 1rem;
   border-radius: 1rem;
   color: white;
-  margin: 1rem 2rem;
+  margin: 2rem 3rem;
   box-shadow: 2px 2px 5px 5px rgba(35, 217, 148, 0.3);
   h2{
     font-size: 2rem;
   }
+    @media (max-width: 1200px) {
+    margin: 2rem 1rem;
+    }
+  
 
 `;
 const Image = styled(motion.div)`

@@ -1,7 +1,4 @@
 //videos
-import d3d from './img/d3d.mp4'
-import music from "./img/mhkmusic.mp4"
-import elena from "./img/elena.mp4"
 
 export const MovieState = () => {
   return [

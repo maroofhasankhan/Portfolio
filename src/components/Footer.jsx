@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import leetcode  from '../img/leetcode-svgrepo-com.svg'
 import linkedin  from '../img/linkedin-brands-solid.svg'
 import github  from '../img/github-brands-solid.svg'
-
+import mail from '../img/mail-plus-svgrepo-com.svg'
 const Footer = () => {
   return (
     <FooterContent>
@@ -23,6 +23,12 @@ const Footer = () => {
               target="_blank"
             >
               <img src={linkedin} alt="linkedin" />
+            </a>
+            <a
+              href="mailto:maroofkhanhasan@gmail.com"
+              target="_blank"
+            >
+              <img src={mail} alt="mail" />
             </a>
           </div>
         </div>
