@@ -29,7 +29,7 @@ const Resume = () => {
           connect and discuss how we can collaborate to make a meaningful
           impact.
         </p>
-        <a href="#" target="_blank">
+        <a href="https://docs.google.com/document/d/11EqV-6h7X36ZG5VQ06p836tpFcTYeNPvGC12PlJ-G9c/edit?usp=sharing" target="_blank">
           <button>My Resume 🔗</button>
         </a>
       </ResumeCard>
